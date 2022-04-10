@@ -46,11 +46,50 @@
 				<key>Path</key>
 				<string>SSDT-GPU-Disable.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
 		<key>Patch</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>R1BSVwI=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFBSVwI=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -717,7 +756,7 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AllowToggleSip</key>
-			<false/>
+			<true/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -868,9 +907,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 -no_compat_check -lilubetaall -wegbeta -alcbeta igfxonln=1 -hbfx-disable-patch-pci -hbfxdbg keepsyms=1 swd_panic=1</string>
-				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<string>-v debug=0x100 -no_compat_check -lilubetaall -wegbeta -alcbeta igfxonln=1 -hbfx-disable-patch-pci -hbfxdbg keepsyms=1 swd_panic=1 -wegnoegpu</string>
 				<key>prev-lang:kbd</key>
 				<string>zh-Hans:252</string>
 				<key>run-efi-updater</key>
@@ -934,6 +971,46 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>Generic</key>
+		<dict>
+			<key>AdviseFeatures</key>
+			<false/>
+			<key>MaxBIOSVersion</key>
+			<false/>
+			<key>MLB</key>
+			<string>C02052306CDPHC1JC</string>
+			<key>ProcessorType</key>
+			<integer>4105</integer>
+			<key>ROM</key>
+			<data>LPBdzDtp</data>
+			<key>SpoofVendor</key>
+			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
+			<key>SystemProductName</key>
+			<string>iMac20,1</string>
+			<key>SystemSerialNumber</key>
+			<string>C02DW00APN5T</string>
+			<key>SystemUUID</key>
+			<string>53A41A41-3395-40ED-A5F8-269E4687E9FC</string>
+		</dict>
+		<key>PlatformNVRAM</key>
+		<dict>
+			<key>BID</key>
+			<string>Mac-CFF7D910A743CAAF</string>
+			<key>FirmwareFeatures</key>
+			<data>ZvCz/wgAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>/////wgAAAA=</data>
+			<key>MLB</key>
+			<string>C02052306CDPHC1JC</string>
+			<key>ROM</key>
+			<data>LPBdzDtp</data>
+			<key>SystemSerialNumber</key>
+			<string>C02DW00APN5T</string>
+			<key>SystemUUID</key>
+			<string>53A41A41-3395-40ED-A5F8-269E4687E9FC</string>
+		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
 		<key>UpdateNVRAM</key>
