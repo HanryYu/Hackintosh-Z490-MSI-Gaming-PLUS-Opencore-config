@@ -2,7 +2,7 @@
 
 MacOS Monterey 12.3.1
 
-![image-20220414205007565](./image-system.png)
+<img src="./image-system.png" alt="image-20220414205007565" style="zoom:50%;" />
 
 # 配置
 
