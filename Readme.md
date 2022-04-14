@@ -2,7 +2,7 @@
 
 MacOS Monterey 12.3.1
 
-![image-20220414204746780](./image-system.png)
+![image-20220414205007565](./image-system.png)
 
 # 配置
 
