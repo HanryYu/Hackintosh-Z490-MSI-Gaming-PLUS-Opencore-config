@@ -19,7 +19,7 @@ MacOS Monterey 12.5.1
 
 ## 配置1：集显，屏蔽英伟达方案
 
-查看详细说明：[readme.md](./noGraphis/readme.md)
+查看详细说明：[README.md](./noGraphis/README.md)
 
 |               | 型号            | 规格 |
 | ------------- | --------------- | ---- |
@@ -41,7 +41,7 @@ MacOS Monterey 12.5.1
 
 ## 配置2：独显，免驱显卡+网卡
 
-查看详细说明：[readme.md](./with6800xt/readme.md)
+查看详细说明：[README.md](./with6800xt/README.md)
 
 |               | 型号          | 规格 |
 | ------------- | ------------- | ---- |
